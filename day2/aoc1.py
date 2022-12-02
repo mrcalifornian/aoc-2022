@@ -18,8 +18,6 @@ def score(L):
     elif L == "C":
         return 3
 
-# Rock defeats Scissors, Scissors defeats Paper, and Paper defeats Rock.
-
 
 def check(rival, me):
     if me == rival:

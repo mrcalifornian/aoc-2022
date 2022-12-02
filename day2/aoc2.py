@@ -1,7 +1,4 @@
-# "The first column is what your opponent is going to play: A for Rock, B for Paper, and C for Scissors.Anyway, the second column says how the round needs to end: X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win. Good luck!"
-
 input = open(".\input.txt")
-
 
 def turnMe(rival, me):
     if me == "X":
@@ -34,8 +31,6 @@ def score(L):
         return 2
     elif L == "C":
         return 3
-
-# Rock defeats Scissors, Scissors defeats Paper, and Paper defeats Rock.
 
 
 def check(me):
