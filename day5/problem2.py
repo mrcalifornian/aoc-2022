@@ -36,7 +36,6 @@ def returnList(num):
 
 def startIn(list, count):
     start = len(list)-1
-    print(start, start-(count-1))
     return start-(count-1)
 
 
@@ -44,7 +43,6 @@ for i in input:
     a, b, c, d, e, f = i.split(" ")
 
     moving = int(b)
-    print(moving)
 
     fromList = returnList(int(d))
 
