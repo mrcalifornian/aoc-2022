@@ -23,6 +23,7 @@ for i in input:
         for x in secondList:
             if n == x:
                 overlaps = True
+                break
 
     if overlaps:
         count += 1
